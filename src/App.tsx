@@ -379,7 +379,7 @@ function App() {
       <ProjectCard
         title="UI/UX KASIH FARMA"
         description="Design for Apotek Kasih Farma"
-        image="/public/KasihProject.png"
+        image="/KasihProject.png"
         technologies={[
           { name: 'Figma', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg' }
         ]}
