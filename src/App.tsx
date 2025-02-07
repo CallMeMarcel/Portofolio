@@ -97,14 +97,14 @@ function App() {
     muted
     className="absolute top-0 left-0 w-full h-full object-cover"
   >
-    <source src="/public/backgorund.mp4" type="video/mp4" />
+    <source src="/backgorund.mp4" type="video/mp4" />
   </video>
 
   <div className="animate-fade-in-down relative z-10">
     <div className="mb-8 relative">
       <div className="w-48 h-48 mx-auto rounded-full overflow-hidden ring-4 ring-emerald-500/30 shadow-xl">
         <img
-          src="/public/formal.jpeg"
+          src="/formal.jpeg"
           alt="Profile"
           className="w-full h-full object-cover"
         />
@@ -145,7 +145,7 @@ function App() {
       <div className="relative flex justify-center group">
         <div className="w-60 h-60 rounded-full overflow-hidden border-4 border-emerald-400 shadow-lg shadow-emerald-500/25 transition-all duration-700 transform group-hover:scale-105">
           <img 
-            src="/public/pedro.png"
+            src="/pedro.png"
             alt="Pedro Marcel Hutagaol"
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           />
@@ -184,7 +184,7 @@ function App() {
 
         {/* Download CV Button */}
         <div className="pt-4">
-          <a href="/public/cv.pdf" download="PedroMarcelHutagaol_Resume.pdf">
+          <a href="/cv.pdf" download="PedroMarcelHutagaol_Resume.pdf">
             <button className="bg-emerald-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-600 transition-all transform hover:scale-105 shadow-lg shadow-emerald-500/25">
               Download CV
             </button>
@@ -338,7 +338,7 @@ function App() {
       <ProjectCard
         title="Sistem Informasi Website HKBP Sidikalang Kota"
         description="A modern e-commerce platform built with React and Node.js"
-        image="/public/projectHKBP.png"
+        image="/projectHKBP.png"
         technologies={[
           { name: 'Laravel', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg' },
           { name: 'MySQL', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
@@ -349,7 +349,7 @@ function App() {
       <ProjectCard
         title="Mobile Music App SOTRIFY"
         description="Music Application for Project Mobile Application Develop"
-        image="/public/SotrifyProject.png"
+        image="/SotrifyProject.png"
         technologies={[
           { name: 'Flutter', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg' },
           { name: 'Firebase', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' }
@@ -359,7 +359,7 @@ function App() {
       <ProjectCard
         title="ORENO DIARY"
         description="Aplikasi catatan dengan tema minimalis futuristik..."
-        image="/public/OrenoProject.png"
+        image="/OrenoProject.png"
         technologies={[
           { name: 'Flutter', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg' },
           { name: 'Firebase', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' }
@@ -369,7 +369,7 @@ function App() {
       <ProjectCard
         title="Monitoring and Analysis System for Number of People"
         description="View and monitor people around you"
-        image="/public/Iot.jpg"
+        image="/Iot.jpg"
         technologies={[
           { name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
           { name: 'OpenCV', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg' }
